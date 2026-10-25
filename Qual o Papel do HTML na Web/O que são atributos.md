@@ -1,0 +1,45 @@
+O que são atributos e como eles funcionam?
+O que é um atributo?
+Um atributo é um valor colocado dentro da tag de abertura de um elemento HTML. Atributos fornecem informações adicionais sobre o elemento ou especificam como o elemento deve se comportar. Aqui está a sintaxe básica para um atributo:
+
+<element attribute="value"></element>
+O nome do atributo é seguido por um sinal de igual (=) e um valor entre aspas. O valor pode ser uma string ou um número, dependendo do atributo.
+
+Os atributos href e target
+Este primeiro exemplo usa os atributos href e target. O atributo href especifica a URL de um link e o atributo target especifica onde abrir o link.
+
+Nota: O elemento a, também conhecido como elemento âncora, é usado para criar hyperlinks. O texto entre as tags de abertura e fechamento a é a parte clicável que os usuários selecionam para navegar.
+
+Ative o editor interativo e altere o href="https://www.freecodecamp.org/news/" para href="https://www.freecodecamp.org". Agora, quando você clicar no link no editor interativo, verá a página inicial do freeCodeCamp em uma nova aba do navegador.
+
+<a href="https://www.freecodecamp.org/news/" target="_blank">Visit freeCodeCamp</a>
+Sem o atributo href, o link não funcionaria porque não haveria uma URL de destino. Portanto, você deve incluir esse atributo href para tornar o link funcional. O target="\_blank" permite que o link seja aberto em uma nova aba do navegador. Você aprenderá mais sobre o atributo target em lições futuras.
+
+Os atributos src e alt
+Outros atributos comuns são os atributos src e alt, ou alternativo, que são usados para especificar a fonte de uma imagem e fornecer um texto descritivo alternativo para a imagem, respectivamente.
+
+Ative o editor interativo e altere o src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" para src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg". Depois altere o alt="Two tabby kittens sleeping together on a couch." para alt="Two cats running in the dirt.".
+
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch." />
+Semelhante ao atributo href, o atributo src é obrigatório porque especifica o arquivo de imagem a ser exibido. O atributo alt não é obrigatório, mas é recomendado para fins de acessibilidade. Acessibilidade significa garantir que todos, incluindo pessoas com deficiências, possam usar e entender coisas como sites, apps e espaços físicos. Você vai aprender mais sobre acessibilidade nas próximas lições.
+
+O atributo checked
+Alguns atributos são um pouco únicos com sua sintaxe como o atributo checked.
+
+Ative o editor interativo e tente clicar na caixa de seleção na janela de visualização para ver ela alternar entre os estados marcado e desmarcado.
+
+<input type="checkbox" checked />
+No exemplo a seguir, temos um elemento input com o atributo type definido como checkbox. Inputs são usados para coletar dados dos usuários, e o atributo type especifica o tipo de entrada. Neste caso, essa entrada é uma caixa de seleção. Você vai aprender mais sobre como inputs funcionam nas próximas lições.
+
+O atributo checked é usado para especificar que a caixa de seleção deve estar marcada por padrão. O atributo checked não requer um valor. Se estiver presente, a caixa de seleção estará marcada por padrão. Se o atributo não estiver presente, a caixa de seleção ficará desmarcada. Isto é conhecido como um atributo booleano. Você aprenderá mais sobre booleanos em geral quando chegar à seção de JavaScript.
+
+Ative o editor interativo e tente remover o atributo checked do input. Você verá que a caixa de seleção não estará mais marcada por padrão.
+
+<input type="checkbox" checked />
+Outros atributos booleanos
+Existem vários atributos booleanos comuns que você encontrará em HTML, como disabled, readonly e required. Esses atributos são usados para especificar o estado de um elemento, como se ele está desabilitado, somente leitura ou obrigatório.
+
+Aqui está um exemplo de um elemento de texto input que está desabilitado por padrão. Ative o editor interativo e tente clicar no elemento input na janela de visualização. Agora remova o atributo disabled do elemento input e você verá que o input não está mais desabilitado por padrão. Agora você deve conseguir clicar nele e digitar dentro do campo.
+
+<input type="text" disabled>
+O HTML tem muitos atributos que podem ser usados para personalizar o comportamento e a aparência dos elementos em uma página web. Entender como usar atributos é essencial para criar conteúdo web interativo e acessível. Nas próximas lições, você vai aprender sobre mais atributos HTML e como usá-los de forma eficaz em seus projetos de desenvolvimento web.

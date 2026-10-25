@@ -1,0 +1,58 @@
+O que é um HTML Boilerplate e por que ele é importante?
+Vamos aprender sobre o boilerplate do HTML.
+
+O que é o boilerplate HTML, você pergunta? É como um modelo pronto para suas páginas web. Pense nele como a fundação de uma casa. Um boilerplate inclui a estrutura básica e os elementos essenciais que todo documento HTML precisa. Ele economiza seu tempo e ajuda a garantir que suas páginas estejam configuradas adequadamente. Aqui está um exemplo:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+  </body>
+</html>
+Vamos analisar as partes principais deste boilerplate. Primeiro, há a declaração DOCTYPE:
+
+<!DOCTYPE html>
+
+Ele informa aos navegadores qual versão do HTML você está usando. Em seguida, vem a tag html:
+
+<!DOCTYPE html>
+<html lang="en">
+  <!--All other elements go inside here-->
+</html>
+Ele envolve todo o seu conteúdo e pode especificar o idioma da sua página. Dentro da tag html, você encontrará duas seções principais, um head e um body:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Important metadata goes here-->
+  </head>
+  <body>
+    <!--Headings, paragraphs, images, etc. go inside here-->
+  </body>
+</html>
+A seção head contém informações importantes nos bastidores:
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Title Goes Here</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+Os metadados do seu site, contidos em elementos meta, têm detalhes sobre coisas como codificação de caracteres e como sites como o Twitter devem pré-visualizar o link da sua página. O título do seu site, encontrado no elemento title, determina o texto que aparece na aba ou janela do navegador. Finalmente, você normalmente vinculará as folhas de estilo externas da sua página na seção head usando elementos link.
+
+A seção body é onde todo o seu conteúdo vai:
+
+<body>
+  <h1>I am a main title</h1>
+  <p>Example paragraph text</p>
+</body>
+Agora, por que um boilerplate é importante? Ele garante que suas páginas estejam estruturadas corretamente e funcionem bem em diferentes navegadores. Usar um boilerplate ajuda você a evitar erros comuns e seguir as melhores práticas. É um ótimo ponto de partida para qualquer projeto web. Lembre-se, você pode personalizar seu próprio boilerplate para atender às suas necessidades. À medida que você ganha experiência, pode adicionar seus próprios elementos preferidos ou meta tags. À medida que você continua a melhorar seu boilerplate pessoal, perceberá que ele economiza seu tempo ao iniciar novos projetos.
+
+Na próxima vez que você iniciar um novo arquivo HTML, considere usar um boilerplate. Definitivamente vai te dar uma base sólida para construir.
